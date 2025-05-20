@@ -1234,3 +1234,6 @@
 /atom/proc/InitializeAIController()
 	if(ai_controller)
 		ai_controller = new ai_controller(src)
+
+/atom/MouseEntered(location, control, params)
+	SSmouse_entered.hovers[usr.client] = src
